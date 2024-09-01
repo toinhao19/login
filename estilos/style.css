@@ -55,19 +55,116 @@ a {
 
 /* configs das Divs*/
 
-/* Div cabecalho */
+/* div imagem */
+
+div.imagem{
+    position: absolute;
+    
+    top: -20%;
+    left: 28%;
+}
+
+/* Div cabecalho -> |PRONTO| */
 
 div#header {
     color: var(--corText);
-    font-size: 20px;
-    font-family: var(--fontHeader);
-    font-weight: bolder;
+    font: normal 800 20px var(--fontHeader);
     text-align: center;
     line-height: 3.8em;
     padding: 7px;
 }
 
 div#header p {
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 24px;
 }
 
+/* Div form */
+
+div#form {
+    text-align: center;
+}
+
+/* config input */
+
+input {
+    border-radius: 6px;
+    border: none;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+/* config label */
+
+div#form label {
+    text-align: left;
+    font-size: 25px;
+}
+
+/* div login */
+
+div.login {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+
+div.login input {
+    width: 65vw; /* vai modificar aqui */
+    height: 50px;
+    padding-left: 40px; /* Espaço para o ícone */
+    margin-bottom: 40px;
+}
+
+div.login input:hover {
+
+    box-shadow: 0px 0px 7px rgba(0, 128, 255, 0.507);
+}
+
+div.login input:focus-within {
+    box-shadow: 0px 0px 15px red;
+}
+
+
+/* div key */
+
+div.key {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+div.key input {
+    width: 65vw; /* vai modificar aqui */
+    height: 60px;
+    padding-left: 40px; /* Espaço pra o ícone */
+    
+}
+
+/* div checkbox */
+
+div.save {
+    
+}
+
+
+/* config do ícone */
+
+i#user { 
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    color: rgb(120, 120, 120);
+    transform: translateY(-27%);
+    font-size: 1em;
+}
+
+i#key {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    color: rgb(120, 120, 120);
+    font-size: 1em;
+    transform: translateY(20%);
+}
