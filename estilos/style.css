@@ -1,0 +1,56 @@
+/* configurando o login principal */
+
+/* config geral */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+/* variaveis */
+
+:root {
+    --corBody: #0F326D;
+    --corMain: #22477C; 
+    --corLink: #F7891F;
+    --corText: white;
+}
+
+/* config html, body, main */
+
+html, body {
+    position: relative; /* config para centralizar a tela de login.*/
+    background-color: var(--corBody);
+    color: var(--corText);
+    font-family: Avenir, Helvetica, Arial, sans-serif;;
+    width: 100vw;
+    height: 100vh;
+}
+
+main { 
+    position: absolute; /* centralizar */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 90vw;
+    height: 70vh;
+    background-color: var(--corMain);
+    border-radius: 6px;
+
+}
+
+/* config links */
+
+a {
+    color: var(--corLink);
+}
+
+/* configs das Divs*/
+
+div#header {
+    color: black;
+}
+
