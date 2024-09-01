@@ -74,7 +74,7 @@ img {
 
 div#header {
     color: var(--corText);
-    font: normal 800 20px var(--fontHeader);
+    font: normal 800 17px var(--fontHeader);
     text-align: center;
     line-height: 3.8em;
     padding: 7px 7px 7px 20px;
@@ -83,7 +83,7 @@ div#header {
 
 div#header p {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 /* Div form */
