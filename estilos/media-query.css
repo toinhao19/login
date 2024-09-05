@@ -2,27 +2,28 @@
 
 @media screen and (min-width:600px) and (max-width:992px) {
     body {
-        background-image: url(../imagens/bckgrnd.jpg
-        );
+        background: black url(../imagens/bckgrnd.jpg) fixed;
+        background-size: cover;
     }
     
     /* div da imagem*/
     div.imagem {
         position: absolute;
-        left: 20%;
+        left: 15%;
         top: 40%;
     }
    
     /* main responsivo para telas menores */
     main {
         width: 65vw;
-        height: 75vh;
-        left: 65%;
+        height: 800px;
+        /* height: 75vh; */
+        left: 60%;
     }
 
     /* Config da div header */
     div#header {
-        font-size: 1.4em;
+        font-size: 1.6em;
         line-height: 3em; 
     }
 
@@ -43,35 +44,22 @@
 
     /* Config da div links */
     div.links {
-        top: 8%; 
+        top: 16%;
         right: 4.5%;
-    }
-
-    /* Config do footer */
-    footer {
-        display: block;
-    }
-}
-
-
-
-/* Botei isso aqui pra resolver um bug que tava dando nessa largura. É bom olhar melhor depois */
-@media screen and (min-width:887px) and (max-width:992px) {
-    div.links {
-        top: 18%
     }
 }
 
 
 @media screen and (min-width:992px) {
     body {
-        background-image: url(../imagens/bckgrnd.jpg);
+        background: black url(../imagens/bckgrnd.jpg) fixed ;
+        background-size: cover;
     }
 
       /* div da imagem*/
       div.imagem {
         position: absolute;
-        left: 20%;
+        left: 15%;
         top: 40%;
     }
 
@@ -119,10 +107,5 @@
     div.links {
         top: 18%; /* Para encaixar dentro do main */
         right: 5%
-    }
-
-    /* Config do footer */ 
-    footer {
-        display: block;
     }
 }
