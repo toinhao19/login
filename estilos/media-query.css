@@ -51,7 +51,10 @@
 
      /* Config do footer */ 
      footer {
-        display: block;
+        padding-top: 20px;
+        position: relative;
+        left: 20%;
+        float: right;
     }
 }
 
@@ -118,6 +121,9 @@
 
      /* Config do footer */ 
      footer {
-        display: block;
+        padding-top: 20px;
+        position: relative;
+        left: 20%;
+        float: right;
     }
 }
