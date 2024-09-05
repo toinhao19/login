@@ -237,12 +237,6 @@ div.enter input:focus-within {
 
 /* div links */
 div.links {
-    position: relative;
-    top: 40%;
-    right: -13%;
-}
-
-div.links p {
     float: right;
 }
 

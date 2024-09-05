@@ -44,6 +44,7 @@
 
     /* Config da div links */
     div.links {
+        position: relative;
         top: 16%;
         right: 4.5%;
     }
@@ -105,6 +106,7 @@
 
     /* Config da div links */
     div.links {
+        position: relative;
         top: 18%; /* Para encaixar dentro do main */
         right: 5%
     }
