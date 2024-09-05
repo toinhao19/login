@@ -51,10 +51,7 @@
 
      /* Config do footer */ 
      footer {
-        padding-top: 20px;
-        position: relative;
-        left: 20%;
-        float: right;
+        visibility: visible;
     }
 }
 
@@ -121,9 +118,6 @@
 
      /* Config do footer */ 
      footer {
-        padding-top: 20px;
-        position: relative;
-        left: 20%;
-        float: right;
+        visibility: visible;
     }
 }

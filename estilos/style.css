@@ -247,3 +247,10 @@ div.links {
 
 /* footer */
 
+footer {
+    visibility:hidden;
+    padding-top: 20px;
+    position: relative;
+    left: 20%;
+    float: right;
+}
